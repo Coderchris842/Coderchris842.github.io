@@ -1,0 +1,84 @@
+---
+---
+
+@import "{{ site.theme }}";
+nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #FF0000;
+  /*position: fixed; not good code, don't feel like deleting it though*/  /* Make it stick, even on scroll */
+  overflow: auto; /* Enable scrolling if the sidenav has too much content */
+} 
+a {
+  float: left;
+}
+nav a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+ @media all and (min-width:
+900px) {
+article {
+float: right;
+width: 66%;
+}
+aside {
+float: right;
+padding-right: 24px;
+width: 34%;
+}
+footer {
+clear: both;
+}
+}
+ .product {
+  position: absolute;
+  left: 1%;
+  top: 150px;
+  border: 5px solid black;
+ }
+
+ .grayed {
+	 color: #a9a9a9;
+ }
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+th, td {
+  padding: 15px;
+}
+td {text-align: center;}
+form {
+	position: absolute;
+	top: 45%;
+}
+
+	body {
+  background-image: url("back.png");
+  font-family: Comic Sans MS;
+  background-position: right top;
+  background-attachment: fixed;
+}
+div {
+	text-align:center
+}
+button {
+ background-color: #ff0000; /* Red */
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 10vw;
+  margin: auto;
+  cursor: pointer;
+  border-radius: 20px;
+  float:
+}
