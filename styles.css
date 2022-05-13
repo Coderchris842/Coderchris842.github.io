@@ -3,7 +3,7 @@ nav {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #013220;
+  background-color: #FF0000;
   /*position: fixed; not good code, don't feel like deleting it though*/  /* Make it stick, even on scroll */
   overflow: auto; /* Enable scrolling if the sidenav has too much content */
 } 
